@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
-  <!-- A group (cross shape) defined in defs and reused with transforms -->
-  <defs>
-    <g id="cross">
-      <rect x="-8" y="-30" width="16" height="60" fill="white" rx="3"/>
-      <rect x="-30" y="-8" width="60" height="16" fill="white" rx="3"/>
-    </g>
-  </defs>
-
-  <rect x="0" y="0" width="200" height="200" fill="#c8c8c8"/>
-
-  <use href="#cross" x="50"  y="50"  transform="rotate(0   50  50)"/>
-  <use href="#cross" x="150" y="50"  transform="rotate(45  150 50)"/>
-  <use href="#cross" x="50"  y="150" transform="rotate(90  50  150)"/>
-  <use href="#cross" x="150" y="150" transform="rotate(135 150 150)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><defs><g id="cross"><rect width="16" height="60" x="-8" y="-30" fill="#fff" rx="3"/><rect width="60" height="16" x="-30" y="-8" fill="#fff" rx="3"/></g></defs><rect width="200" height="200" x="0" y="0" fill="#c8c8c8"/><use x="50" y="50" href="#cross" transform="rotate(0 50 50)"/><use x="150" y="50" href="#cross" transform="rotate(45 150 50)"/><use x="50" y="150" href="#cross" transform="rotate(90 50 150)"/><use x="150" y="150" href="#cross" transform="rotate(135 150 150)"/></svg>
